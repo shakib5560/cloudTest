@@ -6,14 +6,15 @@
   "author": "",
   "type": "commonjs",
   "main": "index.js",
-"scripts": {
-  "start": "node index.js",
-  "build": "next build",  
-  "dev": "next dev"
-}
-,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
