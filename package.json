@@ -6,9 +6,12 @@
   "author": "",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {
-    "dev": "node index.js"
-  },
+"scripts": {
+  "start": "node index.js",
+  "build": "next build",  
+  "dev": "next dev"
+}
+,
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1"
