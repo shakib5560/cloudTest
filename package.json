@@ -8,13 +8,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "build": "next build",
+    "dev": "next dev"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
-    "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2"
   }
 }
